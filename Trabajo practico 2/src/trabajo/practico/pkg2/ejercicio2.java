@@ -19,7 +19,6 @@ public class ejercicio2 {
         int cantDeNumeros, num;
         int maxNumero; 
         int minNumero; 
-  
         
         cantDeNumeros = 3;
         
@@ -36,8 +35,7 @@ public class ejercicio2 {
             if (num > maxNumero) {
                 maxNumero = num;
             } else if (num < minNumero){
-                minNumero = num;
-               
+                minNumero = num;    
             }
             
         }
