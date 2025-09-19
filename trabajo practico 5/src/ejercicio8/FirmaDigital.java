@@ -21,9 +21,6 @@ public class FirmaDigital {
         this.usuario = usuario;
     }
     
-    public FirmaDigital(FirmaDigital otra){
-        this.firma = otra.firma;
-    }
     
     public LocalDate getFecha(){
         return fecha;
@@ -38,24 +35,6 @@ public class FirmaDigital {
             System.out.println("El usuario " + usuario.getNombre() + " tiene la firma " + firma);
         }
     }
-    
-    public void setUsuario(){
-        if (usuario != null) {
-            this.usuario = usuario;
-        }
-    }
-    
-    public void setFecha(){
-        if (fecha != null) {
-            this.fecha = fecha;
-        }
-    }
-    
-    public void setFirma(){
-        if (firma != null) {
-            this.firma = firma;
-        }
-    }  
 
     @Override
     public String toString() {

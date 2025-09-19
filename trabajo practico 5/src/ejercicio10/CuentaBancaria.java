@@ -8,23 +8,35 @@ package ejercicio10;
  *
  * @author marco
  */
+import java.time.LocalDate;
 public class CuentaBancaria {
-private String cbu;
+    private String cbu;
     private double saldo;
     private ClaveSeguridad clave; // composición
     private Titular titular;      // asociación bidireccional
 
-    public CuentaBancaria(String cbu, double saldo, ClaveSeguridad clave) {
+    public CuentaBancaria(String cbu, double saldo, String codigo, LocalDate ultimaModificacion) {
         this.cbu = cbu;
         this.saldo = saldo;
         // Composición → se guarda una copia de la clave
-        this.clave = new ClaveSeguridad(clave);
+        this.clave = new ClaveSeguridad(codigo, ultimaModificacion);
     }
 
-    public String getCbu() { return cbu; }
-    public double getSaldo() { return saldo; }
-    public ClaveSeguridad getClave() { return clave; }
-    public Titular getTitular() { return titular; }
+    public String getCbu() {
+        return cbu; 
+    }
+    
+    public double getSaldo() {
+        return saldo; 
+    }
+    
+    public ClaveSeguridad getClave() {
+        return clave; 
+    }
+    
+    public Titular getTitular() {
+        return titular; 
+    }
 
     public void setTitular(Titular titular) {
         this.titular = titular;

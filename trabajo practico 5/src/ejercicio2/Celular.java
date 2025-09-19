@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ejercicio1;
+package ejercicio2;
 
 /**
  *
@@ -51,23 +51,6 @@ public class Celular {
         return modelo;
     }
     
-    public void setImei(){
-        if (imei != null) {
-            this.imei = imei;
-        }
-    }
-    
-    public void setMarca(){
-        if (marca != null) {
-            this.marca = marca;
-        }
-    }
-
-    public void setModelo(){
-        if (modelo != null) {
-            this.modelo = modelo;
-        }
-    }
 
     @Override
     public String toString() {

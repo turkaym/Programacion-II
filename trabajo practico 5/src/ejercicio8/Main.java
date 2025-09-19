@@ -15,8 +15,8 @@ public class Main {
      */
     public static void main(String[] args) {
         Usuario usuario = new Usuario("Farid", "farid@salomon.com");
-        FirmaDigital firma = new FirmaDigital("firmaDelUsuario", "hash123", LocalDate.now(), usuario);
-        Documento doc = new Documento("Planificacion", "Planificacion de la escuela", firma);
+//        FirmaDigital firma = new FirmaDigital("firmaDelUsuario", "hash123", LocalDate.now(), usuario);
+        Documento doc = new Documento("Planificacion", "'Planificacion de la escuela'", "firmaDelUsuario", "has1230", LocalDate.now(), usuario);
         
         doc.mostrarFirma();
         System.out.println(doc);

@@ -25,17 +25,6 @@ public class Proyecto {
         return duracionMin;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-    
-    public void setDuracion(String duracionMin){
-        if (duracionMin != null) {
-            this.duracionMin = this.duracionMin;
-        }
-    }
 
     @Override
     public String toString() {

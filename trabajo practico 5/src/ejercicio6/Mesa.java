@@ -25,17 +25,6 @@ public class Mesa {
         return capacidad;
     }
     
-    public void setNumero(int numero){
-        if (numero > 0) {
-            this.numero = numero;
-        }
-    }
-    
-    public void setCapacidad(int capacidad){
-        if (capacidad > 0) {
-            this.capacidad = capacidad;
-        }
-    }
 
     @Override
     public String toString() {

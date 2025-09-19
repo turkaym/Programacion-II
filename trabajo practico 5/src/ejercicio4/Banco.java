@@ -25,17 +25,7 @@ public class Banco {
         return cuit;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-    
-    public void setCuit(String cuit){
-        if (cuit != null) {
-            this.cuit = cuit;
-        }
-    }
+
 
     @Override
     public String toString() {

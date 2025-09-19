@@ -30,17 +30,6 @@ public class Cliente {
         return tarjetaDeCredito;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-    
-    public void setDni(String dni){
-        if (dni != null) {
-            this.dni = dni;
-        }
-    }
     
     //ASOCIACION BIDIRECCIONAL
     public void setTarjetaDeCredito(TarjetaDeCredito tarjetaDeCredito){

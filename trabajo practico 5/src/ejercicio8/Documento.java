@@ -8,16 +8,17 @@ package ejercicio8;
  *
  * @author marco
  */
+import java.time.LocalDate;
 public class Documento {
     private String titulo;
     private String contenido;
     private FirmaDigital firmaDigital; //COMPOSICION 1:1
     
     
-    public Documento(String titulo, String contenido, FirmaDigital firma){
+    public Documento(String titulo, String contenido, String firma, String hashCode, LocalDate fecha, Usuario usuario){
         this.titulo = titulo;
         this.contenido = contenido;
-        this.firmaDigital = new FirmaDigital(firma);
+        this.firmaDigital = new FirmaDigital(firma, hashCode, fecha, usuario);
     }
     
     public void mostrarFirma(){

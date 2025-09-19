@@ -45,11 +45,6 @@ public class TarjetaDeCredito {
         return cliente;
     }
     
-    public void setNumero(String numero){
-        if (numero != null) {
-            this.numero =  numero;
-        }
-    }
 
     public void setFechaVenimiento(String fechaVencimiento){
         if (fechaVencimiento != null) {
@@ -57,9 +52,6 @@ public class TarjetaDeCredito {
         }
     }
 
-    public void setBanco(Banco banco){
-        this.banco = banco;
-    }
     
     // ASOCIACION BIDIRECCIONAL
     public void setCliente(Cliente cliente){

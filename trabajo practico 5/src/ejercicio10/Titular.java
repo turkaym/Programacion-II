@@ -30,17 +30,6 @@ public class Titular {
         return cuentaBancaria;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-    
-    public void setDni(String dni){
-        if (dni != null) {
-            this.dni = dni;
-        }
-    }
     
     public void setCuentaBancaria(CuentaBancaria cuentaBancaria){
         this.cuentaBancaria =  cuentaBancaria;

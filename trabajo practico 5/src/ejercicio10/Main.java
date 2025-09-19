@@ -16,9 +16,9 @@ public class Main {
      */
     public static void main(String[] args) {
         Titular titular = new Titular("Farid", "37498103");
-        ClaveSeguridad clave = new ClaveSeguridad("987", LocalDate.now());
+//        ClaveSeguridad clave = new ClaveSeguridad("987", LocalDate.now());
 
-        CuentaBancaria cuenta = new CuentaBancaria("000123456789", 150000.0, clave);
+        CuentaBancaria cuenta = new CuentaBancaria("000123456789", 150000.0, "123", LocalDate.now());
 
         cuenta.setTitular(titular);
 

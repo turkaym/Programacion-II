@@ -14,10 +14,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Proyecto proyecto = new Proyecto("Video Dependecia de Creacion", 5);
-        EditorVideo editor = new EditorVideo();
+        Proyecto proyecto = new Proyecto(" Video Dependecia de Creacion", 5);
         
-        editor.exportar("mp4", proyecto);
+        
+        EditorVideo.exportar("mp4", proyecto);
         
     }
     

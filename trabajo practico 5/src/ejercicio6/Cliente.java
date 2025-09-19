@@ -25,17 +25,6 @@ public class Cliente {
         return telefono;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-
-    public void setTelefono(String telefono) {
-        if (telefono != null) {
-            this.telefono = telefono;
-        }
-    }
 
     @Override
     public String toString() {

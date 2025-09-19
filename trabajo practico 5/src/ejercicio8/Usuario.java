@@ -25,17 +25,6 @@ public class Usuario {
         return email;
     }
     
-    public void setNombre(String nombre){
-        if (nombre != null) {
-            this.nombre = nombre;
-        }
-    }
-    
-    public void setEmail(String email){
-        if (email != null) {
-            this.email = email;
-        }
-    }
 
     @Override
     public String toString() {

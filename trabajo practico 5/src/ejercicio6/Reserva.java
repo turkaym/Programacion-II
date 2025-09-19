@@ -43,11 +43,6 @@ public class Reserva {
         }
     }  
 
-    public void setMesa(Mesa mesa){
-        if (mesa != null) {
-            this.mesa = mesa;
-        }
-    }
 
     @Override
     public String toString() {
