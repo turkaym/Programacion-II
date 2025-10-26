@@ -24,6 +24,7 @@ public class BarajaInglesa {
     
     public void mostrarBaraja(){
         for (Carta carta: cartas){
+            carta.darVuelta();
             carta.mostrar();
         }
     }

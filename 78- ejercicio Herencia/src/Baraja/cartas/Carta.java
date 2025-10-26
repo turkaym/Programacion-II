@@ -12,12 +12,16 @@ public abstract class Carta {
         this.tapada = true;
     }
     
-    private void darVuelta(){
-        
+    public void darVuelta(){
+        tapada = !tapada;
     }
     
     public void mostrar(){
-        
+        if (tapada) {
+            System.out.println("********************");
+        } else {
+            System.out.println("Valor de la carta");
+        }
     }
 
     @Override

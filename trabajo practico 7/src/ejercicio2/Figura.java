@@ -19,10 +19,8 @@ public abstract class Figura {
         return nombre; 
     }
     
-    public double calcularArea(){
-        return 0.0;
-    }
-
+    public abstract double calcularArea();
+    
     @Override
     public String toString() {
         return "Figura{" + "nombre=" + nombre + '}';

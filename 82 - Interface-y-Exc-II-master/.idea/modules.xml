@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practicas del Cortez.iml" filepath="$PROJECT_DIR$/.idea/Practicas del Cortez.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejercicio integrador/ejercicio integrador.iml" filepath="$PROJECT_DIR$/ejercicio integrador/ejercicio integrador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo de interfaces con herencia/interfaces con herencia.iml" filepath="$PROJECT_DIR$/Ejemplo de interfaces con herencia/interfaces con herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos default/metodos default.iml" filepath="$PROJECT_DIR$/metodos default/metodos default.iml" />
+    </modules>
+  </component>
+</project>
